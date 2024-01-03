@@ -56,3 +56,49 @@ let someNumber = 33
 let stringNumber = String(someNumber)
 console.log(stringNumber);
 console.log(typeof(stringNumber));
+console.log();
+
+
+
+
+
+// ******************** OPEATIONS *************************** 
+
+let value =3
+let negValue = -value
+console.log(value);
+console.log(negValue);
+
+console.log();
+console.log(2+2);
+console.log(2-2);
+console.log(2*2);
+console.log(2/3);
+console.log(2%3);
+console.log();
+
+let str1="Hello "
+let str2="World"
+let str3= str1+str2
+console.log(str3);
+
+console.log("1"+2);
+console.log(1+"2");
+console.log("1"+"2");
+console.log("1"+2+2);
+console.log(1+2+"2");
+console.log(1+"2"+"2");
+console.log();
+
+console.log(true);
+console.log(+true);//it gets converted to integer
+console.log(+"");//it gets converted to integer
+
+let num1,num2,num3
+num1=num2=num3 =110
+
+let counter =100
+++counter
+console.log(counter);
+console.log(counter++);
+console.log(++counter);
