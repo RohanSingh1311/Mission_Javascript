@@ -69,3 +69,29 @@ console.log(Object.entries(tinderUser)); //returns array of [array of key value 
 
 //checck if key exists
 console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+console.log();
+console.log();
+
+// +++++++++++++++ OBJECT PART 3++++++++++++++++
+
+//object destructure
+const course ={
+    courseName : "JS with DTI",
+    price : "300",
+    courseInstructor : "Deadlock" 
+}
+
+const{courseInstructor: instructor} = course
+//instead of calling course.courseInstructor we can now directly call instructor
+console.log(instructor);
+
+
+
+//this is how json file is you can check at random user me api and to understand data you can use json formatter
+// {
+//     "name" : "Rohan",
+//     "courseName" : "JS Master",
+//     "price" : "Free"
+// }
+
+
